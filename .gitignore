@@ -1,0 +1,32 @@
+# Compiled binaries
+zuix
+zuix.exe
+*.o
+*.obj
+
+# Zig build files
+zig-cache/
+zig-out/
+
+# Distribution files
+dist/
+*.zip
+*.tar.gz
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Debug files
+*.pdb
+*.dSYM/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup 

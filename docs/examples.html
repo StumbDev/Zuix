@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUIX-DOS Examples</title>
+    <style>
+        /* Same style as other pages */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #000;
+            color: #0f0;
+        }
+        pre {
+            background: #001100;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        h1, h2, h3 {
+            color: #0f0;
+            border-bottom: 1px solid #0f0;
+        }
+        .menu {
+            margin: 20px 0;
+            padding: 10px;
+            background: #001100;
+        }
+        .menu a {
+            margin-right: 20px;
+            color: #0f0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>ZUIX-DOS Examples</h1>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="commands.html">Commands</a>
+        <a href="examples.html">Examples</a>
+        <a href="download.html">Download</a>
+    </div>
+
+    <h2>Simple Counter</h2>
+    <pre>
+10 FOR I = 1 TO 10
+20 PRINT I
+30 NEXT I
+RUN</pre>
+
+    <h2>Input Example</h2>
+    <pre>
+10 PRINT "WHAT IS YOUR NAME?"
+20 INPUT N$
+30 PRINT "HELLO "; N$
+RUN</pre>
+
+    <h2>Graphics Example</h2>
+    <pre>
+10 CLS
+20 LINE 10,10,50,50
+30 CIRCLE 30,30,20
+RUN</pre>
+
+    <h2>Sound Example</h2>
+    <pre>
+10 PLAY "CDEFGAB"
+20 FOR I = 1 TO 1000
+30 NEXT I
+40 BEEP
+RUN</pre>
+</body>
+</html> 

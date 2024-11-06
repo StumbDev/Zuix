@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUIX-DOS Commands</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #000;
+            color: #0f0;
+        }
+        pre {
+            background: #001100;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        h1, h2, h3 {
+            color: #0f0;
+            border-bottom: 1px solid #0f0;
+        }
+        .menu {
+            margin: 20px 0;
+            padding: 10px;
+            background: #001100;
+        }
+        .menu a {
+            margin-right: 20px;
+            color: #0f0;
+            text-decoration: none;
+        }
+        .command {
+            margin: 20px 0;
+            padding: 10px;
+            background: #001100;
+        }
+    </style>
+</head>
+<body>
+    <h1>ZUIX-DOS Commands</h1>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="commands.html">Commands</a>
+        <a href="examples.html">Examples</a>
+        <a href="download.html">Download</a>
+    </div>
+
+    <h2>Basic Commands</h2>
+    
+    <div class="command">
+        <h3>PRINT</h3>
+        <p>Displays text or variable values</p>
+        <pre>PRINT "HELLO"
+PRINT X
+PRINT "VALUE IS: "; X</pre>
+    </div>
+
+    <div class="command">
+        <h3>LET</h3>
+        <p>Assigns values to variables</p>
+        <pre>LET X = 42
+LET A$ = "HELLO"</pre>
+    </div>
+
+    <div class="command">
+        <h3>GOTO</h3>
+        <p>Jumps to a specified line number</p>
+        <pre>10 PRINT "LOOP"
+20 GOTO 10</pre>
+    </div>
+
+    <h2>Function Keys</h2>
+    <ul>
+        <li>F1 - HELP</li>
+        <li>F2 - LIST</li>
+        <li>F3 - GOTO</li>
+        <li>F4 - RUN</li>
+        <li>F5 - CONT</li>
+        <li>F6 - LIST.</li>
+        <li>F7 - TRON</li>
+        <li>F8 - TROFF</li>
+        <li>F9 - KEY</li>
+        <li>F10 - SCREEN</li>
+    </ul>
+</body>
+</html> 
